@@ -1,0 +1,56 @@
+.landing{
+    height: 250px;
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.landing .text h1,h2{
+    color: white;
+    margin-left: 100px;
+}
+.text h1{
+    font-weight: bold;
+    font-family: arial;
+    letter-spacing: 2px;
+}
+.text h2{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.mat-form-field{
+    width: 100%;
+  }
+.content{
+    background-color: #ffff;
+    padding: 50px 100px;
+}
+
+.form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .form textarea{
+      height: 100px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .content{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .content .box{
+        width: 90%;
+    }
+    .landing{
+        justify-content: center;
+        height: 100vh;
+    }
+    .landing .text h1,h2{
+        margin: 0;
+    }
+  }

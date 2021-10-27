@@ -1,0 +1,47 @@
+.landing{
+    height: 250px;
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.landing .text h1,h2{
+    color: white;
+    margin-left: 100px;
+}
+.text h1{
+    font-weight: bold;
+    font-family: arial;
+    letter-spacing: 2px;
+}
+.text h2{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.box{
+    padding: 100px 0px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box img{
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .landing{
+        justify-content: center;
+        height: 100vh;
+    }
+    .landing .text h1,h2{
+        margin: 0;
+    }
+    .box img{
+        width: 400px;
+        height: 400px;
+        margin: 30px;
+    }
+  }
